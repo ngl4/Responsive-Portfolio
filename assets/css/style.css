@@ -1,3 +1,5 @@
+/* ************************************* All Pages *************************************   */
+
 body {
 
     margin: 0;
@@ -12,7 +14,29 @@ body {
 
 }
 
-/* Header */
+h1 {
+
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    color: #63A8A4;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+
+}
+
+/**************************************  Header ********************************************/
+
+a {
+    text-decoration : none; 
+    color : #666666;
+}
+
+a:hover {
+
+    color: lightgray;
+}
 
 header {
 
@@ -43,6 +67,7 @@ header {
     font-weight: bold;
     font-family: 'Times New Roman', 'Georgia', Times, serif;
     font-size: 25px;
+    
 
 }
 
@@ -67,7 +92,7 @@ nav a {
 
 }
 
-/* Body: "About" Content */
+/**************************************  Body: "About" Content ********************************/
 
 section {
 
@@ -86,6 +111,7 @@ section {
     padding: 30px 30px 20px 30px;
     margin-top: 30px;
     width: 900px;
+    line-height: 200%;
     
 }
 
@@ -100,21 +126,38 @@ section {
     padding-bottom: 30px;
 }
 
-h1 {
-
-    border-bottom: 2px solid #cccccc;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
-    color: #63A8A4;
-
-}
-
-#content-about {
-
-}
 
 
-/* Body: "Contact" Content */
+
+
+/******
+*******
+******* Media Queries ******
+****************************
+****************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************* Body: "Contact" Content *******************************/
 
 #contact {
 
@@ -205,7 +248,7 @@ h1 {
   }
 
 
-  /* Body: Portfolio */
+  /**************************************  Body: Portfolio **************************************/
 
   #portfolio {
 
@@ -273,7 +316,7 @@ div #rps {
 }
 
 
-/* Footer */
+/**************************************  Footer ********************************************/
 
 footer {
 
