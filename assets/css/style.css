@@ -28,40 +28,21 @@ h1 {
                                   ******* Media Queries ******
 
 ***********************************/
-                            
 
-/* Width at 980px and below */
-@media screen and (max-width: 980px) {
 
-}
 
-/* Width at 768px and below */
-@media screen and (max-width: 768px) {
+/* Width at 653px and below */
+@media screen and (max-width: 653px) {
 
-}
-
-/* Width at 640px and below */
-@media screen and (max-width: 640px) {
+  h1 {
+    text-align: center;
+  }
 
 }
-
-/* Width at 320px and below */
-@media screen and (max-width: 320px) {
-
-}
-
-/* Width at 168px and below */
-@media screen and (max-width: 168px) {
-    
-}
-
-
-
 
 /* *************************************************************************************** */
 /**************************************  Header ********************************************/
 /* *************************************************************************************** */
-
 
 a {
   text-decoration: none;
@@ -85,7 +66,6 @@ header {
   clear: both;
   width: 80%;
   margin: auto;
-  
 }
 
 #name {
@@ -99,8 +79,7 @@ header {
 }
 
 .solve-gap-issue {
-
-    padding-bottom: 21px !important;
+  padding-bottom: 21px !important;
 }
 
 nav {
@@ -124,25 +103,10 @@ nav a {
 
 ***********************************/
 
-/* Width at 980px and below */
-@media screen and (max-width: 980px) {
-
- 
-}
-                            
-
-/* Width at 768px and below */
-@media screen and (max-width: 768px) {
-
-   
-
-}
 
 /* Width at 653px and below */
 @media screen and (max-width: 653px) {
-
   header {
-
     width: 100%;
   }
 
@@ -151,11 +115,9 @@ nav a {
     clear: both;
     width: 100%;
     margin: auto;
-    
   }
 
   .text-center {
-
     text-align: center;
   }
 
@@ -174,19 +136,7 @@ nav a {
     padding-top: 30px;
     padding-bottom: 20px;
   }
-
 }
-
-/* Width at 320px and below */
-@media screen and (max-width: 320px) {
-
-}
-
-/* Width at 168px and below */
-@media screen and (max-width: 168px) {
-    
-}
-
 
 
 /* *************************************************************************************** */
@@ -223,38 +173,29 @@ section {
                                   ******* Media Queries ******
 
 ***********************************/
-                            
+
 /* Width at 1218px and below */
 @media screen and (max-width: 1218px) {
-
   #profile {
     /* height: 256px;
       width: 192px; */
     height: 40%;
     width: 30%;
-
   }
-
 }
-
-
 
 /* Width at 980px and below */
 @media screen and (max-width: 980px) {
-
   #profile {
     /* height: 256px;
       width: 192px; */
     height: 40%;
     width: 30%;
-
   }
-
 }
 
 /* Width at 768px and below */
 @media screen and (max-width: 768px) {
-
   #profile {
     /* height: 256px;
       width: 192px; */
@@ -263,16 +204,12 @@ section {
     padding-right: 20px;
     padding-bottom: 10px;
   }
-
 }
 
 /* Width at 653px and below */
 @media screen and (max-width: 653px) {
-
   #about {
     margin-left: 4%;
-    width: 80%;
-    line-height: 200%;
   }
 
   #profile {
@@ -286,17 +223,14 @@ section {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }  
-  
+  }
 }
 
 /* Width at 320px and below */
 @media screen and (max-width: 320px) {
-
   #about {
-    margin-left: none;
-    width: 80%;
-    line-height: 200%;
+    margin-left: 0;
+    width: 85%;
   }
 
   #profile {
@@ -311,12 +245,6 @@ section {
     margin-left: auto;
     margin-right: auto;
   }
-
-}
-
-/* Width at 168px and below */
-@media screen and (max-width: 168px) {
-
 }
 
 /* *************************************************************************************** */
@@ -326,7 +254,7 @@ section {
 #contact {
   padding: 30px 30px 20px 30px;
   margin-top: 30px;
-  width: 700px;
+  width: 80%;
 }
 
 #contact-name {
@@ -362,7 +290,6 @@ textarea {
 }
 
 button {
-
   padding: 20px;
   font: bold 1em "Arial";
   border: none;
@@ -378,40 +305,27 @@ button:focus {
   color: #fff;
 }
 
-
 /**********************************
                 
                                   ******* Media Queries ******
 
 ***********************************/
-                            
 
-/* Width at 980px and below */
-@media screen and (max-width: 980px) {
 
+/* Width at 653px and below */
+@media screen and (max-width: 653px) {
+  #contact {
+    margin-left: 4%;
+  }
 }
 
-/* Width at 768px and below */
-@media screen and (max-width: 768px) {
-
+/* Width at 400px and below */
+@media screen and (max-width: 400px) {
+  #contact {
+    margin-left: 0;
+    width: 85%;
+  }
 }
-
-/* Width at 640px and below */
-@media screen and (max-width: 640px) {
-
-}
-
-/* Width at 320px and below */
-@media screen and (max-width: 320px) {
-
-}
-
-/* Width at 168px and below */
-@media screen and (max-width: 168px) {
-    
-}
-
-
 
 
 
@@ -422,7 +336,7 @@ button:focus {
 #portfolio {
   padding: 30px 30px 20px 30px;
   margin-top: 30px;
-  width: 700px;
+  width: 80%;
 }
 
 .photo-size {
@@ -463,40 +377,96 @@ div #rps {
   height: 280px;
 }
 
-
 /**********************************
                 
                                   ******* Media Queries ******
 
 ***********************************/
-                            
+
+/* Width at 1680px and below */
+@media screen and (max-width: 1680px) {
+  #rps {
+    margin-left: 30px;
+  }
+}
+
+/* Width at 1574px and below */
+@media screen and (max-width: 1574px) {
+  #portfolio {
+    width: 70%;
+  }
+
+  #rps {
+    margin-left: 0px;
+  }
+}
+
+/* Width at 1182px and below */
+@media screen and (max-width: 1182px) {
+  #portfolio {
+    width: 90%;
+  }
+}
 
 /* Width at 980px and below */
 @media screen and (max-width: 980px) {
-
 }
 
-/* Width at 768px and below */
-@media screen and (max-width: 768px) {
-
+/* Width at 919px and below */
+@media screen and (max-width: 919px) {
+  #trivia,
+  #rutgers {
+    margin-left: 10px;
+  }
 }
 
-/* Width at 640px and below */
-@media screen and (max-width: 640px) {
+/* Width at 891px and below */
+@media screen and (max-width: 891px) {
+  #trivia,
+  #rutgers {
+    margin-left: 0px;
+  }
+
+  #portfolio {
+    width: 80%;
+  }
+
+  .photo-size {
+    height: 222px;
+    width: 316px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+  
+  
+  .img-center {
+
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center
+  }
+}
+
+/* Width at 653px and below */
+@media screen and (max-width: 653px) {
+
+  #portfolio {
+    width: 70%;
+    margin-left: 10%;
+  }
 
 }
 
 /* Width at 320px and below */
 @media screen and (max-width: 320px) {
 
+  #portfolio {
+    width: 100%;
+    margin-left: 0;
+  }
 }
-
-/* Width at 168px and below */
-@media screen and (max-width: 168px) {
-    
-}
-
-
 
 
 /* *************************************************************************************** */
@@ -515,34 +485,40 @@ footer {
 }
 
 
-/**********************************
+
+
+
+
+
+
+
+
+
+
+/* *********************************
                 
                                   ******* Media Queries ******
 
-***********************************/
-                            
+********************************** */
 
 /* Width at 980px and below */
 @media screen and (max-width: 980px) {
-
 }
 
 /* Width at 768px and below */
 @media screen and (max-width: 768px) {
-
 }
 
 /* Width at 640px and below */
 @media screen and (max-width: 640px) {
-
 }
 
 /* Width at 320px and below */
 @media screen and (max-width: 320px) {
-
 }
 
 /* Width at 168px and below */
 @media screen and (max-width: 168px) {
-    
 }
+
+
