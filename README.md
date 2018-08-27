@@ -1,5 +1,7 @@
 # Responsive-Portfolio
-Based on the Basic-Portfolio layout, this portfolio contains media queries. 
+Responsive Design: Media Queries
+
+Based on the [Basic-Portfolio](https://ngl4.github.io/Basic-Portfolio/) layout, this portfolio contains media queries. 
 
 
 ### Reflection: 
